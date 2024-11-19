@@ -1,304 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Amazon.com Spend less. Smile more,</title>
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <div class="navbar">
-                <div class="nav-logo border">
-                    <div class="logo"></div>
-                </div>
-                <div class="location-add border">
-                    <p class="deliver">Deliver to</p>
-                    <div class="location-dot">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <b><p class="India">India</p></b>
-                    </div>
-                </div>
-
-                <div class="search-bar">
-                    <select class="search-select">
-                        <option>All</option>
-                    </select>
-                    <input type="text" class="search-input"
-                        placeholder="Search Amazon">
-                    <div class="search-icon">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                </div>
-                <div class="sign-in border">
-                    <p><span class="hello">
-                            Hello, sign in
-                        </span></p>
-                    <div class="Account">
-                        Account & Lists
-                        <div class="drop"><i
-                                class="fa-solid fa-caret-down"></i></div>
-                    </div>
-                </div>
-                <div class="return-order border">
-                    <div class="return">
-                        Returns
-                    </div>
-                    <div class="orders">
-                        & Orders
-                    </div>
-                </div>
-                <div class="cart border">
-                    <div class="cart-icon">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        Cart
-                    </div>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com: Spend less. Smile more.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="location-add border">
+                <p class="deliver">Deliver to</p>
+                <div class="location-dot">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="India"><b>India</b></p>
                 </div>
             </div>
 
-            <div class="nav-part-2">
-                <div class="strip">
-                    <div class="bar border">
-                        <i class="fa-solid fa-bars"></i>
-                        All
-                    </div>
-                    <div class="bar border">Todays's Deals</div>
-                    <div class="bar border">Customer Service</div>
-                    <div class="bar border">Registry</div>
-                    <div class="bar border">Gift Cards</div>
-                    <div class="bar border">Sell</div>
+            <div class="search-bar">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input type="text" class="search-input" placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
-        </header>
-
-        <main>
-            <div class="hero">
-                <div class="heroimg">
-                    <div class="cardinstance">
-                        You are on amazon.com. You can also shop on Amazon India
-                        for millions of products with fast local delivery. <a
-                            href="https://www.amazon.in/"> Click here to go to
-                            amazon.in</a>
-                    </div>
+            <div class="sign-in border">
+                <p><span class="hello">Hello, sign in</span></p>
+                <div class="Account">
+                    Account & Lists
+                    <i class="fa-solid fa-caret-down"></i>
                 </div>
             </div>
+            <div class="return-order border">
+                <div class="return">Returns</div>
+                <div class="orders">& Orders</div>
+            </div>
+            <div class="cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span>
+            </div>
+        </div>
 
-            <div class="shop-cards">
-                <div class="cards">
-                    <h2>Toys under $25</h2>
-                    <div class="card-img"
-                        style="background-image: url('./img/toy.jpg');"></div>
-                    <p>Shop Now</p>
+        <nav class="nav-part-2">
+            <ul class="strip">
+                <li class="bar border"><i class="fa-solid fa-bars"></i> All</li>
+                <li class="bar border">Today's Deals</li>
+                <li class="bar border">Customer Service</li>
+                <li class="bar border">Registry</li>
+                <li class="bar border">Gift Cards</li>
+                <li class="bar border">Sell</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="heroimg">
+                <div class="cardinstance">
+                    You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in/">Click here to go to amazon.in</a>
                 </div>
-                <div class="cards">
-                    <h2>Deals in PCs</h2>
-                    <div class="card-img"
-                        style="background-image: url('./img/pc.jpg');"></div>
-                    <p>Shop Now</p>
-                </div>
-                <div class="cards">
-                    <h2>Small gifts under $20</h2>
-                    <div class="card-img"
-                        style="background-image: url('./img/amazon-gift.jpg');"></div>
-                    <p>Shop Now</p>
-                </div>
-                <div class="cards">
-                    <h2>Gaming accessories</h2>
-                    <div class="card-img-grid">
-                        <div class="grid-item">
-                            <img src="./img/g1.jpg" alt="Gaming headset">
-                            <span>Headsets</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/g2.jpg" alt="Gaming headset">
-                            <span>Headsets</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/g3.jpg" alt="Gaming headset">
-                            <span>Headsets</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/g4.jpg" alt="Gaming headset">
-                            <span>Headsets</span>
-                        </div>
+            </div>
+        </section>
+
+        <section class="shop-cards">
+            <div class="cards">
+                <h2>Toys under $25</h2>
+                <div class="card-img" style="background-image: url('./img/toy.jpg');"></div>
+                <p>Shop Now</p>
+            </div>
+            <div class="cards">
+                <h2>Deals in PCs</h2>
+                <div class="card-img" style="background-image: url('./img/pc.jpg');"></div>
+                <p>Shop Now</p>
+            </div>
+            <div class="cards">
+                <h2>Small gifts under $20</h2>
+                <div class="card-img" style="background-image: url('./img/amazon-gift.jpg');"></div>
+                <p>Shop Now</p>
+            </div>
+            <div class="cards">
+                <h2>Gaming accessories</h2>
+                <div class="card-img-grid">
+                    <div class="grid-item">
+                        <img src="./img/g1.jpg" alt="Gaming headset">
+                        <span>Headsets</span>
                     </div>
-                    <p>Shop Now</p>
-                </div>
-
-                <!-- 2nd row   -->
-                <div class="cards">
-                    <h2>Shop for your home essentials</h2>
-                    <div class="card-img-grid">
-                        <div class="grid-item">
-                            <img src="./img/he1.jpg" alt="Gaming headset">
-                            <span>cleaning Tools</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/he2.jpg" alt="Gaming headset">
-                            <span>Home Storage</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/h3.jpg" alt="Gaming headset">
-                            <span>Home Decor</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/h4.jpg" alt="Gaming headset">
-                            <span>Bedding</span>
-                        </div>
+                    <div class="grid-item">
+                        <img src="./img/g2.jpg" alt="Gaming keyboard">
+                        <span>Keyboards</span>
                     </div>
-                    <p>Shop Now</p>
-                </div>
-                <div class="cards">
-                    <h2>Shop deals in Fashion</h2>
-                    <div class="card-img-grid">
-                        <div class="grid-item">
-                            <img src="./img/f1.jpg" alt="Gaming headset">
-                            <span>Jeans under $50</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/f2.jpg" alt="Gaming headset">
-                            <span>Tops under $25</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/f3.jpg" alt="Gaming headset">
-                            <span>Dresses under $30</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/f4.jpg" alt="Gaming headset">
-                            <span>Shoes under %50</span>
-                        </div>
+                    <div class="grid-item">
+                        <img src="./img/g3.jpg" alt="Gaming mouse">
+                        <span>Computer mice</span>
                     </div>
-                    <p>Shop Now</p>
-                </div>
-                <div class="cards">
-                    <h2>Get your game on</h2>
-                    <div class="card-img"
-                        style="background-image: url('./img/game.jpg');"></div>
-                    <p>Shop Now</p>
-                </div>
-                <div class="cards">
-                    <h2>Top in Kitchen appliances</h2>
-                    <div class="card-img-grid">
-                        <div class="grid-item">
-                            <img src="./img/kitchen.jpg">
-                            <span>Headsets</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/k2.jpg">
-                            <span>Headsets</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/k3.jpg">
-                            <span>Headsets</span>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./img/k4.jpg">
-                            <span>Headsets</span>
-                        </div>
+                    <div class="grid-item">
+                        <img src="./img/g4.jpg" alt="Gaming chair">
+                        <span>Chairs</span>
                     </div>
-                    <p>Shop Now</p>
                 </div>
-
-                <!-- horizontal shop cards -->
-
-                <div class="hor-card">
-                    <h2>Top picks for India</h2>
-                    <div class="horizontal">
-                        <img src="./img/hr1.jpg">
-                        <img src="./img/hr2.jpg">
-                        <img src="./img/hr3.jpg">
-                        <img src="./img/hr4.jpg">
-                        <img src="./img/hr5.jpg">
-                        <img src="./img/hr6.jpg">
-                        <img src="./img/hr7.jpg">
-
+                <p>Shop Now</p>
+            </div>
+            <div class="cards">
+                <h2>Shop for your home essentials</h2>
+                <div class="card-img-grid">
+                    <div class="grid-item">
+                        <img src="./img/he1.jpg" alt="Cleaning Tools">
+                        <span>Cleaning Tools</span>
                     </div>
-
+                    <div class="grid-item">
+                        <img src="./img/he2.jpg" alt="Home Storage">
+                        <span>Home Storage</span>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/h3.jpg" alt="Home Decor">
+                        <span>Home Decor</span>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/h4.jpg" alt="Bedding">
+                        <span>Bedding</span>
+                    </div>
                 </div>
-
-                <div class="hor-card">
-                    <h2>Best Sellers in Clothing, Shoes & Jewelry</h2>
-                    <div class="horizontal2">
-                        <img src="./img/c1.jpg">
-                        <img src="./img/c2.jpg">
-                        <img src="./img/c3.jpg">
-                        <img src="./img/c4.jpg">
-                        <img src="./img/c5.jpg">
-                        <img src="./img/c6.jpg">
-                        <img src="./img/c7.jpg">
+                <p>Shop Now</p>
+            </div>
+            <div class="cards">
+                <h2>Shop deals in Fashion</h2>
+                <div class="card-img-grid">
+                    <div class="grid-item">
+                        <img src="./img/f1.jpg" alt="Jeans">
+                        <span>Jeans under $50</span>
                     </div>
+                    <div class="grid-item">
+                        <img src="./img/f2.jpg" alt="Tops">
+                        <span>Tops under $25</span>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/f3.jpg" alt="Dresses">
+                        <span>Dresses under $30</span>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/f4.jpg" alt="Shoes">
+                        <span>Shoes under $50</span>
+                    </div>
+                </div>
+                <p>Shop Now</p>
+            </div>
+            <div class="cards">
+                <h2>Get your game on</h2>
+                <div class="card-img" style="background-image: url('./img/game.jpg');"></div>
+                <p>Shop Now</p>
+            </div>
+            <div class="cards">
+                <h2>Top in Kitchen appliances</h2>
+                <div class="card-img-grid">
+                    <div class="grid-item">
+                        <img src="./img/kitchen.jpg" alt="Kitchen appliance">
+                        <span>Mixers</span>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/k2.jpg" alt="Kitchen appliance">
+                        <span>Blenders</span>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/k3.jpg" alt="Kitchen appliance">
+                        <span>Toasters</span>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/k4.jpg" alt="Kitchen appliance">
+                        <span>Coffee Makers</span>
+                    </div>
+                </div>
+                <p>Shop Now</p>
+            </div>
+        </section>
+
+        <section class="horizontal-cards">
+            <div class="hor-card">
+                <h2>Top picks for India</h2>
+                <div class="horizontal">
+                    <img src="./img/hr1.jpg" alt="Top pick 1">
+                    <img src="./img/hr2.jpg" alt="Top pick 2">
+                    <img src="./img/hr3.jpg" alt="Top pick 3">
+                    <img src="./img/hr4.jpg" alt="Top pick 4">
+                    <img src="./img/hr5.jpg" alt="Top pick 5">
+                    <img src="./img/hr6.jpg" alt="Top pick 6">
+                    <img src="./img/hr7.jpg" alt="Top pick 7">
                 </div>
             </div>
 
-        </main>
-
-        <!-- footer -->
-
-        <footer>
-
-            <div class="back2top">
-                Back to top
-            </div>
-            <div class="fpanel">
-
-                <ul>
-                    <p>Get to Know Us</p>
-                    <a href>Careers</a>
-                    <a href>Blog</a>
-                    <a href>About Amazon</a>
-                    <a href>Investor Relations</a>
-                    <a href>Amazon Devices</a>
-                    <a href>Amazon Science</a>
-                </ul>
-                <ul>
-                    <p>Make Money with Us</p>
-                    <a href>Sell products on Amazon</a>
-                    <a href>Sell on Amazon Business</a>
-                    <a href>Sell apps on Amazon</a>
-                    <a href>Become an Affiliate</a>
-                    <a href>Advertise Your Products</a>
-                    <a href>Self-Publish with Us</a>
-                    <a href>Self-Publish with Us</a>
-                </ul>
-                <ul>
-                    <p>Amazon Payment Products</p>
-                    <a href>Amazon Business Card</a>
-                    <a href>Shop with Points</a>
-                    <a href>Reload Your Balance</a>
-                    <a href>Amazon Currency Converter</a>
-                </ul>
-                <ul>
-                    <p>Let Us Help You</p>
-                    <a href>Amazon and COVID-19</a>
-                    <a href>Your Account</a>
-                    <a href>Returns & Replacements</a>
-                    <a href>Investor Relations</a>
-                    <a href>Manage Your Content and Devices</a>
-                    <a href>Help</a>
-                </ul>
-            </div>
-            <div class="footer3">
-                <div class="logo-am"></div>
-                <div class="footitems">
-                    <div class="english">
-                        <i class="fa-solid fa-globe"></i>
-                        English
-                    </div>
-                    <div class="usd">
-                        <i class="fa-solid fa-dollar-sign"></i>
-                        USD-U.S. Dollar
-                    </div>
-                    <div class="usd">
-                        <i class="fa-solid fa-globe"></i>
-                        United States
-                    </div>
+            <div class="hor-card">
+                <h2>Best Sellers in Clothing, Shoes & Jewelry</h2>
+                <div class="horizontal2">
+                    <img src="./img/c1.jpg" alt="Best seller 1">
+                    <img src="./img/c2.jpg" alt="Best seller 2">
+                    <img src="./img/c3.jpg" alt="Best seller 3">
+                    <img src="./img/c4.jpg" alt="Best seller 4">
+                    <img src="./img/c5.jpg" alt="Best seller 5">
+                    <img src="./img/c6.jpg" alt="Best seller 6">
+                    <img src="./img/c7.jpg" alt="Best seller 7">
                 </div>
             </div>
-        </footer>
-    </body>
+        </section>
+    </main>
+
+    <footer>
+        <div class="back2top">Back to top</div>
+        <div class="fpanel">
+            <ul>
+                <li><p>Get to Know Us</p></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Amazon</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Amazon Devices</a></li>
+                <li><a href="#">Amazon Science</a></li>
+            </ul>
+            <ul>
+                <li><p>Make Money with Us</p></li>
+                <li><a href="#">Sell products on Amazon</a></li>
+                <li><a href="#">Sell on Amazon Business</a></li>
+                <li><a href="#">Sell apps on Amazon</a></li>
+                <li><a href="#">Become an Affiliate</a></li>
+                <li><a href="#">Advertise Your Products</a></li>
+                <li><a href="#">Self-Publish with Us</a></li>
+                <li><a href="#">Host an Amazon Hub</a></li>
+            </ul>
+            <ul>
+                <li><p>Amazon Payment Products</p></li>
+                <li><a href="#">Amazon Business Card</a></li>
+                <li><a href="#">Shop with Points</a></li>
+                <li><a href="#">Reload Your Balance</a></li>
+                <li><a href="#">Amazon Currency Converter</a></li>
+            </ul>
+            <ul>
+                <li><p>Let Us Help You</p></li>
+                <li><a href="#">Amazon and COVID-19</a></li>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Your Orders</a></li>
+                <li><a href="#">Shipping Rates & Policies</a></li>
+                <li><a href="#">Returns & Replacements</a></li>
+                <li><a href="#">Manage Your Content and Devices</a></li>
+                <li><a href="#">Amazon Assistant</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer3">
+            <div class="logo-am"></div>
+            <div class="footitems">
+                <div class="english">
+                    <i class="fa-solid fa-globe"></i>
+                    English
+                </div>
+                <div class="usd">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    USD-U.S. Dollar
+                </div>
+                <div class="usd">
+                    <i class="fa-solid fa-globe"></i>
+                    United States
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
